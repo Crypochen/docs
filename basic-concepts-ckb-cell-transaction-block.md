@@ -18,7 +18,7 @@ There are primarily 3 data structures you need to know in order to develop on CK
 
 Cell is the most basic element in CKB system. A cell can be used to store a state or a script. 
 
-A state cell may contain the information data of an application or an UDT (User-Defined-Asset), such as the balance of a user's ERC20 token. A script cell may contain the logic of an application or the rules of an UDT, such as the balance of an ERC20 token can not be negative. 
+A state cell may contain the information data of an application or an UDT (User-Defined-Token), such as the balance of a user's ERC20 token. A script cell may contain the logic of an application or the rules of an UDT, such as the balance of an ERC20 token can not be negative. 
 
 > It is feasible to let a cell store both the state and the logic of an application, but if this application wants to leverage the power of [layer2 solutions](https://github.com/Awesome-Layer-2/Awesome-Layer-2#introduction-to-layer-2-solutions-1), this is really not recommended. This may result in the same problem of [why it is hard to implement EVM on Plasma](https://medium.com/@kelvinfichter/why-is-evm-on-plasma-hard-bf2d99c48df7).
 
